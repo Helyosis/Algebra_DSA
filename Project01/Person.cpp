@@ -20,7 +20,7 @@ Person::Person(const char* new_name, const char* new_surname, int new_id) {
 	id = new_id;
 }
 
-void Person::print() {
+char* Person::to_string() {
 	char res[15];
 	if (id == -1) {
 		snprintf(res, 15, "%s %s", name, surname);
@@ -29,5 +29,9 @@ void Person::print() {
 		snprintf(res, 15, "%s %s (%d)", name, surname, id);
 
 	}
-	printf(person_format, res);
+
+	char res2[9000];
+	snprintf(res2, 9000, person_format, res);
+
+	return res2;
 }

@@ -10,7 +10,7 @@ using namespace std;
 
 int Task01() {
 	Person p = Person("John", "Doe", 69);
-	p.print();
+	cout << p.to_string() << endl;
 
 	return 0;
 }
@@ -85,5 +85,5 @@ int Task04() {
 }
 
 int main() {
-	return Task04();
+	return Task01();
 }

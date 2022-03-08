@@ -6,5 +6,5 @@ public:
 
 public:
 	Person(const char* name, const char* surname, int id = -1);
-	void print();
+	char* to_string();
 };
