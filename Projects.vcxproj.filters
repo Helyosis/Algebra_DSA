@@ -15,33 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="project1\Person.cpp">
+    <ClCompile Include="Project01\Fraction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="project1\Project01.cpp">
+    <ClCompile Include="Project01\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Project1\Rectangle.cpp">
+    <ClCompile Include="Project01\Person.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Project1\Fraction.cpp">
+    <ClCompile Include="Project01\Rectangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Project1\Transmission.cpp">
+    <ClCompile Include="Project01\Transmission.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="project1\Person.h">
+    <ClInclude Include="Project01\Fraction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Project1\Rectangle.h">
+    <ClInclude Include="Project01\Person.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Project1\Fraction.h">
+    <ClInclude Include="Project01\Rectangle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Project1\Transmission.h">
+    <ClInclude Include="Project01\Transmission.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

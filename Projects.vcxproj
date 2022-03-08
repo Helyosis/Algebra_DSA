@@ -18,10 +18,24 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Project01\Fraction.cpp" />
+    <ClCompile Include="Project01\Main.cpp" />
+    <ClCompile Include="Project01\Person.cpp" />
+    <ClCompile Include="Project01\Rectangle.cpp" />
+    <ClCompile Include="Project01\Transmission.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Project01\Fraction.h" />
+    <ClInclude Include="Project01\Person.h" />
+    <ClInclude Include="Project01\Rectangle.h" />
+    <ClInclude Include="Project01\Transmission.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <ProjectGuid>{A935EBE1-7B26-4A77-B461-2E9A84DCFF44}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
+    <ProjectName>TP01</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -102,19 +116,6 @@
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Project1\Fraction.cpp" />
-    <ClCompile Include="project1\Person.cpp" />
-    <ClCompile Include="project1\Project01.cpp" />
-    <ClCompile Include="Project1\Rectangle.cpp" />
-    <ClCompile Include="Project1\Transmission.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Project1\Fraction.h" />
-    <ClInclude Include="project1\Person.h" />
-    <ClInclude Include="Project1\Rectangle.h" />
-    <ClInclude Include="Project1\Transmission.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
