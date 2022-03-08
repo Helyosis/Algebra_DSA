@@ -6,7 +6,7 @@ const char* person_format = \
 "      (° °)\n"
 ",~ooO~~(_)~~~~~~,\n"
 "|               |\n"
-"|%15s|\n" // Will pad the string to fit in the box
+"|%-15s|\n" // Will pad the string to fit in the box
 "|               |\n"
 "'~~~~~~~~~~~Ooo~'\n"
 "     |__|__|\n"
@@ -14,7 +14,7 @@ const char* person_format = \
 "     ooO Ooo\n"
 ;
 
-Person::Person(const char* new_name, const char* new_surname, int new_id = -1) {
+Person::Person(const char* new_name, const char* new_surname, int new_id) {
 	name = new_name;
 	surname = new_surname;
 	id = new_id;

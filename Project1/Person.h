@@ -5,6 +5,6 @@ public:
 	int id;
 
 public:
-	Person(const char* name, const char* surname, int id);
+	Person(const char* name, const char* surname, int id = -1);
 	void print();
 };
