@@ -2,6 +2,9 @@
 
 #include "MyMath.h"
 #include "PrintFile.h"
+#include "Primes.h"
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -39,7 +42,14 @@ void Task02() {
     cout << readFile(filename);
 }
 
+void Task03() {
+    vector<int> arr;
+    init_array(arr, 100);
+
+    for_each(arr.rbegin(), arr.rend(), print_if_prime);
+}
+
 int main()
 {
-    Task02();
+    Task03();
 }

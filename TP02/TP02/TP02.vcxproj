@@ -140,11 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="MyMath.cpp" />
+    <ClCompile Include="Primes.cpp" />
     <ClCompile Include="PrintFile.cpp" />
     <ClCompile Include="TP02.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyMath.h" />
+    <ClInclude Include="Primes.h" />
     <ClInclude Include="PrintFile.h" />
   </ItemGroup>
   <ItemGroup>

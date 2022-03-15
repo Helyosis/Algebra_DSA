@@ -24,12 +24,18 @@
     <ClCompile Include="PrintFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Primes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyMath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PrintFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Primes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
